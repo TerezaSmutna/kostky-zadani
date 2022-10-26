@@ -4,7 +4,7 @@ export const Dice = (props) => {
   const element = document.createElement('div');
   element.innerHTML = `
 <div class="dice">
-  <div class='dice__side--${side}'></div>
+  <div class='dice__side dice__side--${side}'></div>
   <button class="btn btn--small roll-btn">hodit</button>
 </div>
 `;
